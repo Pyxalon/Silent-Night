@@ -1050,7 +1050,7 @@ function()
 		if locals.get_int("fmmc_launcher", HGGs1) ~= 0 then
 			if locals.get_int("fmmc_launcher", HGGs1) > 1 then
 					locals.set_int("fmmc_launcher", HGGs2, 1)
-                    globals.set_int(794954 + 4 + 1 + (locals.get_int("fmmc_launcher", HGGs1) * 95) + 75, 1)
+                    globals.set_int(794989 + 4 + 1 + (locals.get_int("fmmc_launcher", HGGs1) * 95) + 75, 1)
 			end
 			globals.set_int(HGLs1, 1)
             globals.set_int(HGLs2, 1)
@@ -1073,7 +1073,7 @@ SN_Doomsday:add_button("Force Ready", function()
         network.force_script_host("fm_mission_controller")
         script:sleep(1000)
         for i = 1, 4 do
-            globals.set_int(1882572 + 1 + ((i - 1) * 315) + 43 + 11 + i, 1)
+            globals.set_int(1882652 + 1 + ((i - 1) * 321) + 43 + 11 + i, 1)
         end
         gui.show_message("Doomsday Heist", "Everyone should've been forced ready")
     end)
@@ -1585,8 +1585,8 @@ function()
 		if locals.get_int("fmmc_launcher", HGGs1) ~= 0 then
 			if locals.get_int("fmmc_launcher", HGGs1) > 1 then
 					locals.set_int("fmmc_launcher", HGGs2, 1)
-                    globals.set_int(794954 + 4 + 1 + (locals.get_int("fmmc_launcher", HGGs1) * 95) + 75, 1)
-			end
+                    globals.set_int(794989 + 4 + 1 + (locals.get_int("fmmc_launcher", HGGs1) * 95) + 75, 1)
+            end
 			globals.set_int(HGLs1, 1)
             globals.set_int(HGLs2, 1)
             globals.set_int(HGLs3, 1)
@@ -1651,7 +1651,7 @@ SN_CasinoHeistExtra:add_button("Force Ready", function()
         network.force_script_host("fm_mission_controller")
         script:sleep(1000)
         for i = 1, 4 do
-            globals.set_int(1976315 + 1 + ((i - 1) * 68) + 7 + i, 1)
+            globals.set_int(1976846 + 1 + ((i - 1) * 68) + 7 + i, 1)
         end
         gui.show_message("Diamond Casino Heist", "Everyone should've been forced ready")
     end)
@@ -2146,7 +2146,7 @@ SN_Cayo:add_button("Force Ready", function()
         network.force_script_host("fm_mission_controller_2020")
         script:sleep(1000)
         for i = 1, 4 do
-            globals.set_int(1979868 + 1 + ((i - 1) * 27) + 7 + i, 1)
+            globals.set_int(1980404 + 1 + ((i - 1) * 27) + 7 + i, 1)
         end
         gui.show_message("Cayo Perico Heist", "Everyone should've been forced ready")
     end)
@@ -2359,8 +2359,8 @@ function()
 		if locals.get_int("fmmc_launcher", HGGs1) ~= 0 then
 			if locals.get_int("fmmc_launcher", HGGs1) > 1 then
 					locals.set_int("fmmc_launcher", HGGs2, 1)
-                    globals.set_int(794954 + 4 + 1 + (locals.get_int("fmmc_launcher", HGGs1) * 95) + 75, 1)
-			end
+                    globals.set_int(794989 + 4 + 1 + (locals.get_int("fmmc_launcher", HGGs1) * 95) + 75, 1)
+            end
 			globals.set_int(HGLs1, 1)
             globals.set_int(HGLs2, 1)
             globals.set_int(HGLs3, 1)
@@ -2376,7 +2376,7 @@ SN_Apartment:add_button("Force Ready", function()
         network.force_script_host("fm_mission_controller")
         script:sleep(1000)
         for i = 1, 4 do
-            globals.set_int(2658291 + 1 + ((i - 1) * 468) + 270, 6)
+            globals.set_int(2658293 + 1 + ((i - 1) * 468) + 270, 6)
         end
         gui.show_message("Apartment Heist", "Everyone should've been forced ready")
     end)
@@ -2462,33 +2462,33 @@ local SN_MB = SN_MoneyT:add_tab("MC Businesses ")
 SN_MB:add_text("Resupply All Businesses")
 SN_MB:add_button("Resupply All", function()
 	script.run_in_fiber(function(mcResupply)
-		globals.set_int(1673807 + 1 + 6, 1)
-		globals.set_int(1673807 + 1 + 6, 1)
-		globals.set_int(1673807 + 1 + 6, 1) -- Acid Lab Supplies
+		globals.set_int(1673813 + 1 + 6, 1)
+		globals.set_int(1673813 + 1 + 6, 1)
+		globals.set_int(1673813 + 1 + 6, 1) -- Acid Lab Supplies
 		gui.show_message("Acid Lab", "Resupplying your Acid Lab")
-		globals.set_int(1673807 + 1 + 5, 1)
-		globals.set_int(1673807 + 1 + 5, 1)
-		globals.set_int(1673807 + 1 + 5, 1) -- Bunker Supplies
+		globals.set_int(1673813 + 1 + 5, 1)
+		globals.set_int(1673813 + 1 + 5, 1)
+		globals.set_int(1673813 + 1 + 5, 1) -- Bunker Supplies
 		gui.show_message("Bunker", "Resupplying your Bunker")
-		globals.set_int(1673807 + 1 + 0, 1)
-		globals.set_int(1673807 + 1 + 0, 1)
-		globals.set_int(1673807 + 1 + 0, 1) -- Counterfeit Cash Factory Supplies
+		globals.set_int(1673813 + 1 + 0, 1)
+		globals.set_int(1673813 + 1 + 0, 1)
+		globals.set_int(1673813 + 1 + 0, 1) -- Counterfeit Cash Factory Supplies
 		gui.show_message("Counterfeit Cash Factory", "Resupplying your Counterfeit Cash Factory")
-		globals.set_int(1673807 + 1 + 1, 1)
-		globals.set_int(1673807 + 1 + 1, 1)
-		globals.set_int(1673807 + 1 + 1, 1) -- Document Forge Supplies
+		globals.set_int(1673813 + 1 + 1, 1)
+		globals.set_int(1673813 + 1 + 1, 1)
+		globals.set_int(1673813 + 1 + 1, 1) -- Document Forge Supplies
 		gui.show_message("Document Forge", "Resupplying your Document Forge")
-		globals.set_int(1673807 + 1 + 2, 1)
-		globals.set_int(1673807 + 1 + 2, 1)
-		globals.set_int(1673807 + 1 + 2, 1) -- Weed Farm Supplies
+		globals.set_int(1673813 + 1 + 2, 1)
+		globals.set_int(1673813 + 1 + 2, 1)
+		globals.set_int(1673813 + 1 + 2, 1) -- Weed Farm Supplies
 		gui.show_message("Weed Farm", "Resupplying your Weed Farm")
-		globals.set_int(1673807 + 1 + 3, 1)
-		globals.set_int(1673807 + 1 + 3, 1)
-		globals.set_int(1673807 + 1 + 3, 1) -- Meth Lab Suplies
+		globals.set_int(1673813 + 1 + 3, 1)
+		globals.set_int(1673813 + 1 + 3, 1)
+		globals.set_int(1673813 + 1 + 3, 1) -- Meth Lab Suplies
 		gui.show_message("Meth Lab", "Resupplying your Meth Lab")
-		globals.set_int(1673807 + 1 + 4, 1)
-		globals.set_int(1673807 + 1 + 4, 1)
-		globals.set_int(1673807 + 1 + 4, 1) -- Cocaine Lockup Supplies
+		globals.set_int(1673813 + 1 + 4, 1)
+		globals.set_int(1673813 + 1 + 4, 1)
+		globals.set_int(1673813 + 1 + 4, 1) -- Cocaine Lockup Supplies
 		gui.show_message("Cocaine Lockup", "Resupplying your Cocaine Lockup")
 	end)
 end)
@@ -2850,8 +2850,8 @@ SN_Casino:add_imgui(function()
 end)
 SN_Casino:add_button("Give Prize", function()
     local selected = CasinoPrizes[luckyPrizeIndex + 1]
-    locals.set_int("casino_lucky_wheel", 302 + 14, selected.index)
-    locals.set_int("casino_lucky_wheel", 302 + 45, 11)
+    locals.set_int("casino_lucky_wheel", 309 + 14, selected.index)
+    locals.set_int("casino_lucky_wheel", 309 + 45, 11)
     gui.show_message("Casino", "Prize given: " .. selected.name)
 end)
 SN_Casino:add_separator()
@@ -3132,10 +3132,11 @@ function()
 end)
 SN_unlocker:add_sameline()
 SN_unlocker:add_button("Unlock Mercenaries Masks",function() 
-	for i = 34713, 34731 do
+	for i = 34714, 34732 do
 		globals.set_int(262145 + i, 1)
 	end
 end)
+
 SN_unlocker:add_sameline()
 SN_unlocker:add_button("Unlock Flight School Gold Medals",
 	function()
@@ -3306,9 +3307,8 @@ end)
 
 -- LSCM ---
 local SN_LSCM = SN_Miscellaneous:add_tab("LSCM Unlocker Menu ")
-
 SN_LSCM:add_button("Unlock All Rep Lvl 1000", function()
-	for i = 262145 + 31046, 262145 + 31075 do
+	for i = 262145 + 31047, 262145 + 31076 do
 		globals.set_float(i, 100000)
 	end
 end)
@@ -3570,7 +3570,8 @@ local function render_weapon_editor()
 end
 
 script.register_looped("Gun Van", function()
-	gun_van_loc = globals.get_int(2652579 + 2706)
+	gun_van_loc = globals.get_int(2652581 + 2706)
+
 
 	if is_typing then
 		PAD.DISABLE_ALL_CONTROL_ACTIONS(0)
@@ -3608,7 +3609,7 @@ SN_gun_van_tab:add_imgui(function()
 	ImGui.SameLine()
 
 	if ImGui.Button("Set New Gun Van Location") then
-		globals.set_int(2652579 + 2706, selected_loc)
+		globals.set_int(2652581 + 2706, selected_loc)
 	end
 
 	ImGui.SameLine()
@@ -3636,10 +3637,13 @@ SN_gun_van_tab:add_imgui(function()
 
 	if on_tick then
 		if not livery_lock then
-			local value = locals.get_int("gunclub_shop", 199 + 747) & ~(1 << 8)
-			locals.set_int("gunclub_shop", 199 + 747, value)
+			local value = locals.get_int("gunclub_shop", 206 + 747) & ~(1 << 8)
+			locals.set_int("gunclub_shop", 206 + 747, value)
 		end
 	end
+
+
+
 
 	gta_plus_blip, on_tick = ImGui.Checkbox("Blip Always Visible", gta_plus_blip)
 	help_marker("The Gun Van will always be blipped on the map, just like in GTA+.")
