@@ -14,4 +14,4 @@ Incompatible with Enhanced due to incomplete V2 Lua API.
 - SomeoneSleepy
 - Platindesk
 
-I am not the original creator of this script. Updated the script to work with 3889 1.73.
+I am not the original creator of this script. Updated the script to work with b3889 1.73.
