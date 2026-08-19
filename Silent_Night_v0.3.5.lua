@@ -252,8 +252,8 @@ local function null() end
 
 
 -- Silent Night Tab
-Silent = gui.get_tab("Silent Night 1.72")
-Silent:add_text("Silent Night 1.72")
+Silent = gui.get_tab("Silent Night 1.73")
+Silent:add_text("Silent Night 1.73")
 Silent:add_text("YOUR RP LEVEL IS " .. stats.get_int(joaat(MPX() .. "CHAR_RANK_FM")))
 Silent:add_text("YOUR CREW RANK IS " .. stats.get_int(joaat("MPPLY_CURRENT_CREW_RANK")))
 
